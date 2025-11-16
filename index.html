@@ -9,32 +9,68 @@
 <body>
 <table><p><h1>Klasické Nokia (nedotykové)</h1></p></table>
 
-<table border="1">
-  <thead>
-    <tr>
-      <th>Jméno</th>
-      <th>Věk</th>
-      <th>Město</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Anna</td>
-      <td>28</td>
-      <td>Praha</td>
-    </tr>
-    <tr>
-      <td>Tomáš</td>
-      <td>35</td>
-      <td>Brno</td>
-    </tr>
-    <tr>
-      <td>Lucie</td>
-      <td>22</td>
-      <td>Plzeň</td>
-    </tr>
-  </tbody>
-</table>
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabulka bez rámečků</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    table {
+      font-size: 24px; /* Zvětšení písma */
+      border-collapse: collapse;
+      text-align: center;
+    }
+
+    th, td {
+      padding: 12px 20px;
+      border: none; /* Odstranění rámečků */
+    }
+
+    th {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Jméno</th>
+        <th>Věk</th>
+        <th>Město</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Anna</td>
+        <td>28</td>
+        <td>Praha</td>
+      </tr>
+      <tr>
+        <td>Tomáš</td>
+        <td>35</td>
+        <td>Brno</td>
+      </tr>
+      <tr>
+        <td>Lucie</td>
+        <td>22</td>
+        <td>Plzeň</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
 </body>
 </html>
 
