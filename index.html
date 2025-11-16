@@ -9,11 +9,6 @@
 <body>
 <table><p><h1>Klasické Nokia (nedotykové)</h1></p></table>
 
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-  <meta charset="UTF-8">
-  <title>Tabulka bez rámečků</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -27,18 +22,18 @@
     }
 
     table {
-      font-size: 24px; /* Zvětšení písma */
-      border-collapse: collapse;
+      border-collapse: collapse; /* Sloučí rámečky do jednoho */
+      font-size: 24px;
       text-align: center;
     }
 
     th, td {
+      border: 2px solid #003366; /* Jeden rámeček pro všechny buňky */
       padding: 12px 20px;
-      border: none; /* Odstranění rámečků */
     }
 
     th {
-      font-weight: bold;
+      background-color: #e0e0e0;
     }
   </style>
 </head>
@@ -69,8 +64,3 @@
       </tr>
     </tbody>
   </table>
-</body>
-</html>
-</body>
-</html>
-
